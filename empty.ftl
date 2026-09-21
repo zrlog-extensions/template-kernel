@@ -1,0 +1,1 @@
+<section class="empty-state"><p class="empty-command">0 files</p><h2>${_res.emptyTitle!'Directory is empty.'}</h2><p><#if (tipsType!'')?has_content>${_res.noResults!'No matching entries.'}<#else>${_res.emptyDescription!'The first entry is still being written.'}</#if></p><a href="${baseUrl}">[cd ~] ${_res.backHome!'Home'}</a></section>

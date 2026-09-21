@@ -1,0 +1,44 @@
+{
+  "terminalUser": {
+    "label": "终端显示用户名",
+    "htmlElementType": "input",
+    "type": "text",
+    "placeholder": "user"
+  },
+  "introTitle": {
+    "label": "首页标题（留空使用站点名称）",
+    "htmlElementType": "input",
+    "type": "text",
+    "placeholder": "留空使用站点名称"
+  },
+  "introText": {
+    "label": "首页说明（留空使用站点副标题）",
+    "htmlElementType": "textarea",
+    "type": "text",
+    "placeholder": "留空时使用站点副标题、描述或默认文案"
+  },
+  "profileText": {
+    "label": "作者自述（可选）",
+    "htmlElementType": "textarea",
+    "type": "text",
+    "placeholder": "用自己的话介绍这份记录；留空不显示"
+  },
+  "githubUrl": {
+    "label": "GitHub 链接（可选，仅 HTTPS）",
+    "htmlElementType": "input",
+    "type": "text",
+    "placeholder": "https://github.com/your-name"
+  },
+  "footerText": {
+    "label": "页脚短句",
+    "htmlElementType": "input",
+    "type": "text",
+    "placeholder": "写下过程，留下答案。"
+  },
+  "terminalHost": {
+    "label": "终端显示主机名",
+    "htmlElementType": "input",
+    "type": "text",
+    "placeholder": "blog"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "template-kernel",
+  "name": "Kernel",
+  "author": "ZrLog",
+  "description": "单屏终端博客主题：命令导航、文件列表、less 风格阅读，默认纯黑并提供四套 Cookie 记忆配色。",
+  "repository": "https://github.com/zrlog-extensions/template-kernel",
+  "engine": "freemarker",
+  "sourceDirectory": ".",
+  "testedRuntime": "3.9.2",
+  "preview": "https://raw.githubusercontent.com/zrlog-extensions/template-kernel/main/images/preview.jpg",
+  "createdDate": "2026-09-21 00:00:00",
+  "tags": [
+    "终端",
+    "极客",
+    "暗色"
+  ],
+  "en": {
+    "name": "Kernel",
+    "desc": "A single terminal session for your blog: command navigation, a file listing and a less-style reader. Four palettes, black by default, remembered in a cookie.",
+    "tags": [
+      "Terminal",
+      "Geek",
+      "Dark"
+    ]
+  },
+  "distribution": {
+    "mode": "shared",
+    "target": "github-release"
+  },
+  "latestRelease": null
+}

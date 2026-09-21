@@ -1,0 +1,314 @@
+{
+  "runtime": "3.9.2",
+  "design": "single terminal session",
+  "date": "2026-09-21",
+  "results": [
+    {
+      "device": "desktop",
+      "palette": "amber",
+      "cookieReload": true
+    },
+    {
+      "device": "desktop",
+      "palette": "dracula",
+      "cookieReload": true
+    },
+    {
+      "device": "desktop",
+      "palette": "nord",
+      "cookieReload": true
+    },
+    {
+      "device": "desktop",
+      "palette": "black",
+      "cookieReload": true
+    },
+    {
+      "device": "desktop",
+      "port": "17095",
+      "path": "/java-packing-tools.html",
+      "render": "pass"
+    },
+    {
+      "device": "desktop",
+      "port": "17093",
+      "path": "/",
+      "render": "pass"
+    },
+    {
+      "device": "desktop",
+      "port": "17093",
+      "path": "/all-2",
+      "render": "pass"
+    },
+    {
+      "device": "desktop",
+      "port": "17093",
+      "path": "/writing-on-my-own-site",
+      "render": "pass"
+    },
+    {
+      "device": "desktop",
+      "port": "17093",
+      "path": "/notes-from-the-past",
+      "render": "pass"
+    },
+    {
+      "device": "desktop",
+      "port": "17093",
+      "path": "/sort/notes",
+      "render": "pass"
+    },
+    {
+      "device": "desktop",
+      "port": "17093",
+      "path": "/tag/ZrLog",
+      "render": "pass"
+    },
+    {
+      "device": "desktop",
+      "port": "17093",
+      "path": "/record/2026_07",
+      "render": "pass"
+    },
+    {
+      "device": "desktop",
+      "port": "17093",
+      "path": "/tags",
+      "render": "pass"
+    },
+    {
+      "device": "desktop",
+      "port": "17093",
+      "path": "/categories",
+      "render": "pass"
+    },
+    {
+      "device": "desktop",
+      "port": "17093",
+      "path": "/archives",
+      "render": "pass"
+    },
+    {
+      "device": "desktop",
+      "port": "17093",
+      "path": "/links",
+      "render": "pass"
+    },
+    {
+      "device": "desktop",
+      "port": "17093",
+      "path": "/does-not-exist",
+      "render": "pass"
+    },
+    {
+      "device": "desktop",
+      "port": "17097",
+      "path": "/",
+      "render": "pass"
+    },
+    {
+      "device": "desktop",
+      "commands": "pass",
+      "internalScroll": "pass",
+      "copy": "pass",
+      "toc": "pass",
+      "dialog": "pass"
+    },
+    {
+      "device": "mobile",
+      "palette": "amber",
+      "cookieReload": true
+    },
+    {
+      "device": "mobile",
+      "palette": "dracula",
+      "cookieReload": true
+    },
+    {
+      "device": "mobile",
+      "palette": "nord",
+      "cookieReload": true
+    },
+    {
+      "device": "mobile",
+      "palette": "black",
+      "cookieReload": true
+    },
+    {
+      "device": "mobile",
+      "port": "17095",
+      "path": "/java-packing-tools.html",
+      "render": "pass"
+    },
+    {
+      "device": "mobile",
+      "port": "17093",
+      "path": "/",
+      "render": "pass"
+    },
+    {
+      "device": "mobile",
+      "port": "17093",
+      "path": "/all-2",
+      "render": "pass"
+    },
+    {
+      "device": "mobile",
+      "port": "17093",
+      "path": "/writing-on-my-own-site",
+      "render": "pass"
+    },
+    {
+      "device": "mobile",
+      "port": "17093",
+      "path": "/notes-from-the-past",
+      "render": "pass"
+    },
+    {
+      "device": "mobile",
+      "port": "17093",
+      "path": "/sort/notes",
+      "render": "pass"
+    },
+    {
+      "device": "mobile",
+      "port": "17093",
+      "path": "/tag/ZrLog",
+      "render": "pass"
+    },
+    {
+      "device": "mobile",
+      "port": "17093",
+      "path": "/record/2026_07",
+      "render": "pass"
+    },
+    {
+      "device": "mobile",
+      "port": "17093",
+      "path": "/tags",
+      "render": "pass"
+    },
+    {
+      "device": "mobile",
+      "port": "17093",
+      "path": "/categories",
+      "render": "pass"
+    },
+    {
+      "device": "mobile",
+      "port": "17093",
+      "path": "/archives",
+      "render": "pass"
+    },
+    {
+      "device": "mobile",
+      "port": "17093",
+      "path": "/links",
+      "render": "pass"
+    },
+    {
+      "device": "mobile",
+      "port": "17093",
+      "path": "/does-not-exist",
+      "render": "pass"
+    },
+    {
+      "device": "mobile",
+      "port": "17097",
+      "path": "/",
+      "render": "pass"
+    },
+    {
+      "device": "mobile",
+      "commands": "pass",
+      "internalScroll": "pass",
+      "copy": "pass",
+      "toc": "pass",
+      "dialog": "pass"
+    }
+  ],
+  "cookieBeforeDeferredScript": true,
+  "noJavaScript": "pass",
+  "keyboard": {
+    "indexArrowsJKEnter": true,
+    "directSearchAndCommand": true,
+    "contextSensitiveEditing": true,
+    "completion": true,
+    "historyDraft": true,
+    "imeGuard": true,
+    "nativeTab": true,
+    "readerPaging": true,
+    "browserShortcutsPreserved": true,
+    "mobileNoAutoKeyboard": true
+  },
+  "ssrSession": {
+    "selectionAfterReturn": true,
+    "commandFocusAfterNavigation": true,
+    "historyAcrossNavigation": true,
+    "draftAfterReload": true,
+    "readingScrollAfterReload": true,
+    "mobileNoAutoKeyboard": true,
+    "browserBack": true
+  },
+  "desktopTerminalMaxWidth": 960,
+  "assetCache": {
+    "cssVersion": "394cfe1db4a2",
+    "jsVersion": "3eb1a326c32f",
+    "measuredDesktopWidth": 960,
+    "normalReload": true,
+    "serverCacheControl": "max-age=31536000, immutable"
+  },
+  "completion": {
+    "liveSuggestions": true,
+    "arrowSelection": true,
+    "tabAccept": true,
+    "enterAcceptBeforeExecute": true,
+    "titleMatching": true,
+    "mouseAndTouch": true,
+    "escapeDismiss": true,
+    "imeGuard": true,
+    "nativeShiftTab": true
+  },
+  "pageData": {
+    "schemaVersion": 1,
+    "articleScope": "current-page",
+    "categories": true,
+    "tags": true,
+    "archives": true,
+    "independentOfHiddenNavigation": true
+  },
+  "readerEntryFocus": {
+    "commands": [
+      "open",
+      "cat 03",
+      "less 03"
+    ],
+    "mainFocused": true,
+    "spaceAndPageDown": true,
+    "jScroll": true,
+    "qRestoresSelection": true
+  },
+  "openCommand": {
+    "selectedArticle": true,
+    "noSelectionFeedback": true,
+    "completion": true
+  },
+  "easterEgg": {
+    "hiddenFromHelpAndCompletion": true,
+    "excludedFromHistory": true,
+    "animation": true,
+    "reducedMotionStatic": true,
+    "mobileExit": true,
+    "escapeAndFocusRestore": true,
+    "reopen": true,
+    "dialogIsolation": true
+  },
+  "portability": {
+    "independentSiteSettings": true,
+    "terminalUserAndHost": true,
+    "htmlEscaping": true,
+    "dynamicArticleData": true,
+    "noFixedPersonalLinks": true
+  }
+}

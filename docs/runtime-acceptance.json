@@ -1,0 +1,260 @@
+{
+  "date": "2026-09-21",
+  "runtime": "3.9.2",
+  "toolkit": "fa397df332576b9dd798ac59a40d4ba96b3266a7",
+  "design": "single terminal session",
+  "sha256": "76c067ddf1f5e25121a68610c24d176666d39887f32d63a1b1374fe9f2ce03f8",
+  "directory": {
+    "pages": [
+      {
+        "route": "/",
+        "language": "zh-CN",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/search?key=no-such-article-987654",
+        "language": "zh-CN",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/does-not-exist",
+        "language": "zh-CN",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/all-2",
+        "language": "zh-CN",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/writing-on-my-own-site",
+        "language": "zh-CN",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/notes-from-the-past",
+        "language": "zh-CN",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/sort/notes",
+        "language": "zh-CN",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/tag/ZrLog",
+        "language": "zh-CN",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/record/2026_07",
+        "language": "zh-CN",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/search?key=ZrLog",
+        "language": "zh-CN",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/",
+        "language": "en-US",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/search?key=no-such-article-987654",
+        "language": "en-US",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/does-not-exist",
+        "language": "en-US",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/all-2",
+        "language": "en-US",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/writing-on-my-own-site",
+        "language": "en-US",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/notes-from-the-past",
+        "language": "en-US",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/sort/notes",
+        "language": "en-US",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/tag/ZrLog",
+        "language": "en-US",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/record/2026_07",
+        "language": "en-US",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/search?key=ZrLog",
+        "language": "en-US",
+        "status": 200,
+        "ok": true
+      }
+    ],
+    "resourcesChecked": 28,
+    "failures": []
+  },
+  "zip": {
+    "pages": [
+      {
+        "route": "/",
+        "language": "zh-CN",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/search?key=no-such-article-987654",
+        "language": "zh-CN",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/does-not-exist",
+        "language": "zh-CN",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/all-2",
+        "language": "zh-CN",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/writing-on-my-own-site",
+        "language": "zh-CN",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/notes-from-the-past",
+        "language": "zh-CN",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/sort/notes",
+        "language": "zh-CN",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/tag/ZrLog",
+        "language": "zh-CN",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/record/2026_07",
+        "language": "zh-CN",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/search?key=ZrLog",
+        "language": "zh-CN",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/",
+        "language": "en-US",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/search?key=no-such-article-987654",
+        "language": "en-US",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/does-not-exist",
+        "language": "en-US",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/all-2",
+        "language": "en-US",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/writing-on-my-own-site",
+        "language": "en-US",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/notes-from-the-past",
+        "language": "en-US",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/sort/notes",
+        "language": "en-US",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/tag/ZrLog",
+        "language": "en-US",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/record/2026_07",
+        "language": "en-US",
+        "status": 200,
+        "ok": true
+      },
+      {
+        "route": "/search?key=ZrLog",
+        "language": "en-US",
+        "status": 200,
+        "ok": true
+      }
+    ],
+    "resourcesChecked": 28,
+    "failures": []
+  },
+  "productionActivated": false
+}

@@ -1,0 +1,4 @@
+<div class="markdown-body article-body" id="article-content">${log.content!''}</div>
+<#if (log.tags![])?has_content><nav class="article-tags" aria-label="${(_res.articleTags!'Article tags')?html}"><#list log.tags as tag><a href="${tag.url?html}">#${tag.name?html}</a></#list></nav></#if>
+<#assign hasPrevious=log.lastLog?? && hasAdjacent(log.lastLog, log) hasNext=log.nextLog?? && hasAdjacent(log.nextLog, log)>
+<#if hasPrevious || hasNext><nav class="adjacent-entries" aria-label="${(_res.entryList!'Entries')?html}"><#if hasPrevious><a href="${log.lastLog.url?html}"><span>← ${_res.previousArticle!'Previous'}</span><strong>${log.lastLog.title?html}</strong></a></#if><#if hasNext><a href="${log.nextLog.url?html}"><span>${_res.nextArticle!'Next'} →</span><strong>${log.nextLog.title?html}</strong></a></#if></nav></#if>

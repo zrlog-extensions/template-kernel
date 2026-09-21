@@ -1,0 +1,3 @@
+<#include "header.ftl">
+<section class="collection-output"><p class="prompt"><span>${terminalUser?html}@${terminalHost?html}</span><b>:~$</b><span class="prompt-command">tree ./${collectionKind?html}/</span></p><h1>${collectionTitle?html}</h1><#if collectionItems?has_content><div class="collection-list"><#list collectionItems as item><a href="${item.url?html}"><span aria-hidden="true"><#if item?is_last>└──<#else>├──</#if></span><span><#if collectionKind == 'categories'>${item.typeName?html}<#elseif collectionKind == 'links'>${item.linkName?html}<#else>${item.text?html}</#if></span><span aria-hidden="true">/</span></a></#list></div><#else><#include "empty.ftl"></#if></section>
+<#include "footer.ftl">
