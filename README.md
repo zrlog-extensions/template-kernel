@@ -6,7 +6,7 @@
 
 终端会话支持 `help`、`ls`、`ls -lt ./posts/`、`cat 01`、`less 01`、`cat README.md`、`q`、`next`、`prev`、`tags`、`categories`、`archive`、`links`、`cd <分类名>`、`search Java`、`grep Java`、`cd ~`、`clear` 和上下方向键历史。文章编号与 `ls` 仅针对当前页，搜索通过真实服务端执行。命令只处理博客导航、服务端搜索与本地配色偏好，不执行系统 shell 或任意脚本；没有 JavaScript 时仍可使用文章链接与搜索表单。
 
-当前版本 **0.1.0**，已通过官方 ZrLog **3.9.2** 的目录预览和 ZIP 安装验收，并完成桌面／手机终端交互、四套配色、Cookie 恢复与无 JavaScript 回退检查。主题源码由独立仓库 `zrlog-extensions/template-kernel` 维护。目前未发布 Release，也未替换线上主题，`latestRelease` 保持 `null`。
+当前版本 **0.1.0**，已通过官方 ZrLog **3.9.2** 的目录预览和 ZIP 安装验收，并完成桌面／手机终端交互、四套配色、Cookie 恢复与无 JavaScript 回退检查。主题源码由独立仓库 `zrlog-extensions/template-kernel` 维护。可安装版本以本仓库的 [Releases](https://github.com/zrlog-extensions/template-kernel/releases) 为准。源码中的 `latestRelease` 保持 `null`，正式发布附件 `theme.json` 由公共发布器写入真实版本、下载地址与校验值。
 
 文稿选择、阅读翻屏与命令编辑已通过独立浏览器键盘验收，结果见 `docs/browser-acceptance.json` 的 `keyboard` 字段。
 
@@ -114,7 +114,7 @@ git tag v0.1.0
 git push origin v0.1.0
 ```
 
-tag 去掉 `v` 后须与 `template.properties` 中的版本完全一致。发布成功后，在 `templates/catalog.sources.json` 登记稳定配置地址 `https://github.com/zrlog-extensions/template-kernel/releases/latest/download/theme.json`；索引只同步配置，不拉源码或 ZIP。未发布时可登记源码配置，但不得提供安装地址。`zrlog-www` 通过公共市场清单获取主题介绍与发布状态。
+tag 去掉 `v` 后须与 `template.properties` 中的版本完全一致。本主题目前仅通过独立仓库 Release 分发，**不进入 zrlog-www 主题市场**。市场登记是单独的可选步骤，不随版本发布自动执行。未来明确决定上架时，才在 `templates/catalog.sources.json` 登记稳定配置地址 `https://github.com/zrlog-extensions/template-kernel/releases/latest/download/theme.json`；索引只同步配置，不拉源码或 ZIP。未发布时可登记源码配置，但不得提供安装地址。`zrlog-www` 通过公共市场清单获取主题介绍与发布状态。
 
 也可自行维护 Release，具体遵循 [发布与市场契约](https://github.com/zrlog-extensions/templates/blob/fa397df332576b9dd798ac59a40d4ba96b3266a7/docs/publication-and-market.md)。
 
